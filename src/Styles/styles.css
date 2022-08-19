@@ -1,0 +1,346 @@
+        @import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Lora:wght@400;500;700&display=swap');
+        *,
+        *::before,
+        *::after {
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+        
+        body {
+            background-color: antiquewhite;
+            font-family: Lora;
+            font-size: 20px;
+            font-weight: 400;
+            width: 100%;
+            scroll-behavior: smooth;
+            transition: 0.3;
+        }
+        
+        header {
+            background-color: #322d32;
+            margin: 0 auto;
+            padding: 100px;
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+            position: relative;
+        }
+        
+        .crixy {
+            color: #db0000;
+            font-weight: 700;
+            font-size: 50px;
+        }
+        
+        .tech {
+            color: #ffcc00;
+        }
+        
+        .navlink {
+            width: 70%;
+            overflow: hidden;
+            text-align: right;
+            position: absolute;
+            bottom: 0;
+        }
+        
+        .about {
+            text-decoration: none;
+            color: white;
+            font-size: 16px;
+            display: inline-block;
+            margin-left: 20px;
+            cursor: pointer;
+        }
+        
+        .email {
+            text-align: right;
+            margin: 10px;
+        }
+        
+        .enter {
+            padding: 6px;
+            width: 250px;
+            border: none;
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+            outline: none;
+            cursor: pointer;
+            background-color: whitesmoke;
+            border-radius: 5px;
+        }
+        
+        .mynav {
+            display: flex;
+        }
+        
+        .chat {
+            padding: 5px;
+            cursor: pointer;
+            border: none;
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+            background-color: azure;
+            border-radius: 5px;
+            font-weight: 500;
+        }
+        
+        .enter:placeholder {
+            color: beige;
+        }
+        
+        .enter:hover {
+            background-color: burlywood;
+            color: black;
+        }
+        
+        .myname {
+            text-align: center;
+            margin: 50px 20px;
+        }
+        
+        .eke {
+            font-weight: 700;
+            font-size: 35px;
+            color: #990011ff;
+        }
+        
+        .hi {
+            font-size: 22px;
+        }
+        
+        .image {
+            display: flex;
+            flex: 1;
+            justify-content: center;
+            align-items: center;
+            margin-top: -150px;
+        }
+        
+        .prof {
+            text-align: center;
+            font-weight: 700;
+            margin: 10px;
+        }
+        
+        .profile {
+            width: 47%;
+            text-align: justify;
+        }
+        
+        .info {
+            text-align: center;
+            font-weight: bolder;
+        }
+        
+        .contact-me {
+            padding: 20px 50px;
+            margin: 15px;
+            background-color: #990011ff;
+            border-radius: 10px;
+            border: none;
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        }
+        
+        .contacting {
+            text-decoration: none;
+            color: white;
+            font-size: 22px;
+            font-weight: bolder;
+        }
+        
+        footer {
+            background-color: #322d32;
+            width: 100%;
+            padding: 50px;
+            position: relative;
+            margin: 0px;
+        }
+        
+        .footer {
+            color: white;
+            position: absolute;
+            right: 30px;
+            bottom: 20px;
+            font-size: 15px;
+        }
+        
+        .all {
+            text-align: center;
+            margin: 100px;
+            width: 80%;
+            font-size: 22px;
+        }
+        
+        .forall {
+            font-weight: bolder;
+            margin-bottom: 5px;
+        }
+        
+        .forall.c {
+            font-weight: bolder;
+        }
+        
+        .myskills {
+            width: 93%;
+            text-align: center;
+            margin: 30px 50px;
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+            padding: 2.5em;
+            border-radius: 10px;
+            background-color: rgba(0, 0, 0, 0.2);
+            font-size: 16px;
+            font-weight: 400;
+        }
+        
+        .arrange {
+            display: flex;
+            flex-direction: column;
+            justify-items: center;
+        }
+        
+        .emage {
+            width: 50px;
+            height: 50px;
+            align-self: center;
+        }
+        
+        .word {
+            color: red;
+        }
+        
+        .one {
+            display: flex;
+            flex: 1;
+            justify-content: space-between;
+            margin: 20px 5px;
+        }
+        
+        .two {
+            display: flex;
+            flex: 1;
+            justify-content: space-between;
+            margin: 10px 5px;
+        }
+        
+        .three {
+            display: flex;
+            flex: 1;
+            justify-content: space-between;
+            margin: 10px 5px;
+        }
+        
+        .form {
+            padding: 70px 80px;
+            border: 2px solid brown;
+            width: 550px;
+            margin: 50px;
+            border-radius: 15px;
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+            align-content: center;
+        }
+        
+        .divide {
+            display: flex;
+            flex: 1;
+            justify-content: space-evenly;
+        }
+        
+        .fill {
+            padding: 15px;
+            width: 350px;
+            border: none;
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+            outline: none;
+            cursor: pointer;
+            background-color: whitesmoke;
+            border-radius: 5px;
+            transition: 0.3;
+            margin: 0px 10px 20px 10px;
+            font-size: 18px;
+        }
+        
+        .label {
+            margin: 20px 10px 0px 10px;
+        }
+        
+        .mycomment {
+            text-align: center;
+        }
+        
+        .comment {
+            font-weight: bolder;
+            margin-top: 1em;
+        }
+        
+        #comment {
+            text-align: justify;
+            width: 350px;
+            margin: 5px 1em 1em 1em;
+        }
+        
+        #textarea {
+            background-color: whitesmoke;
+            border-radius: 10px;
+            align-self: center;
+            font-size: 18px;
+            outline: none;
+        }
+        
+        .fill:placeholder {
+            color: beige;
+            font-size: 22px;
+        }
+        
+        .fill:hover {
+            background-color: burlywood;
+            color: black;
+            cursor: pointer;
+        }
+        
+        textarea:hover {
+            background-color: burlywood;
+            color: black;
+            cursor: pointer;
+        }
+        
+        .contact-button {
+            padding: 20px 30px;
+            background-color: #990011ff;
+            border-radius: 10px;
+            border: none;
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        }
+        
+        .contact-bitton {
+            text-align: center;
+        }
+        
+        .submit {
+            text-decoration: none;
+            color: white;
+            font-size: 22px;
+            font-weight: bolder;
+        }
+        
+        .call-me {
+            margin: 30px;
+            padding: 20px;
+        }
+        
+        .nu {
+            margin: 20px;
+        }
+        
+        .no .nu {
+            font-weight: bold;
+        }
+        
+        .table {
+            margin: 50px;
+            font-weight: bold;
+            width: 100%;
+        }
+        
+        .mytable {
+            width: 80%;
+            margin: 40px;
+            padding: 10px;
+        }
